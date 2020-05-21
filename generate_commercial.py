@@ -269,7 +269,7 @@ def generate_html():
             commercial_nested_template = COMMERCIAL_NESTED_HEADER_TEMPLATE
             link = page[2]
             if 'youtube' in link:
-                iframe = f'<iframe src="https://www.youtube.com/{link.split("v=")[1]}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                iframe = f'<iframe src="https://www.youtube.com/embed/{link.split("v=")[1]}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             elif 'vimeo' in link:
                 iframe = f'<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/{link.split("/")[-1]}" allowfullscreen></iframe>'
             else:
