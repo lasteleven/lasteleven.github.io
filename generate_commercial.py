@@ -50,7 +50,7 @@ COMMERCIAL_HEADER_TEMPLATE = '''
           <li><a href="/">Home</a></li>
           <li><a href="/">About</a></li>
           <li class="menu-active"><a href="commercial">Work</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -142,13 +142,6 @@ COMMERCIAL_NESTED_HEADER_TEMPLATE = '''
 
   <!-- Template Main CSS File -->
   <link href="../../assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Avilon - v2.0.0
-  * Template URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
